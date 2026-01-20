@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Epstein Files: Unsealed</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <canvas id="network-canvas"></canvas>
+
+    <header>
+        <div class="logo">CASE NO. 15-CIV-07433</div>
+        <nav>
+            <ul>
+                <li><a href="#timeline">TIMELINE</a></li>
+                <li><a href="#documents">THE DOCUMENTS</a></li>
+                <li><a href="#figures">KEY FIGURES</a></li>
+                <li><a href="#impact">IMPACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <h1 class="glitch" data-text="UNSEALED">UNSEALED</h1>
+            <p class="subtitle">The Jeffrey Epstein Documents: A Deep Dive</p>
+            <div class="scroll-indicator">
+                <span>SCROLL TO INVESTIGATE</span>
+            </div>
+        </section>
+
+        <section id="intro" class="content-section">
+            <div class="redaction-container">
+                <h2>THE TRUTH HIDDEN IN PLAIN SIGHT</h2>
+                <p>
+                    In January 2024, the court unsealed over <span class="highlight">900 pages</span> of documents from
+                    the lawsuit
+                    <em>Virginia Giuffre v. Ghislaine Maxwell</em>. The release exposed the <span
+                        class="redacted">intricate web</span> of power, money, and influence
+                    that protected one of the most <span class="redacted">prolific sex offenders</span> in history.
+                </p>
+            </div>
+        </section>
+
+        <section id="timeline" class="content-section">
+            <h2>THE TIMELINE</h2>
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <div class="date">2005</div>
+                    <div class="event">
+                        <h3>The First Investigation</h3>
+                        <p>Palm Beach police begin investigating Epstein after reports of abuse.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="date">2008</div>
+                    <div class="event">
+                        <h3>The Non-Prosecution Agreement</h3>
+                        <p>Epstein pleads guilty to lesser state charges in a controversial deal involving Alex Acosta.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="date">2015</div>
+                    <div class="event">
+                        <h3>Giuffre v. Maxwell</h3>
+                        <p>Virginia Giuffre sues Ghislaine Maxwell for defamation. This lawsuit generates the documents
+                            released in 2024.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="date">2019</div>
+                    <div class="event">
+                        <h3>Arrest & Death</h3>
+                        <p>Epstein is arrested on federal sex trafficking charges. He dies in jail a month later.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="date">2024</div>
+                    <div class="event">
+                        <h3>The Unsealing</h3>
+                        <p>Judge Loretta Preska orders the release of sealed documents, revealing names and depositions
+                            previously hidden.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="figures" class="content-section">
+            <h2>MENTIONED FIGURES</h2>
+            <p class="disclaimer">NOTE: Mention in documents does not imply guilt. Hover to classify.</p>
+            <div class="grid-container">
+                <div class="card">
+                    <div class="card-img-container">
+                        <img src="maxwell.png" alt="Ghislaine Maxwell">
+                        <div class="overlay">DEFENDANt</div>
+                    </div>
+                    <div class="card-header">GHISLAINE MAXWELL</div>
+                    <div class="card-body">
+                        The central figure in the trafficking operation. Convicted in 2021. The 2024 documents stem from
+                        the defamation lawsuit filed against her by Virginia Giuffre.
+                        <div class="hidden-details">
+                            <span class="detail-label">STATUS:</span> SERVING 20 YEARS<br>
+                            <span class="detail-label">ROLE:</span> RECRUITER / PARTNER
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-container">
+                        <img src="redacted_man.png" alt="Prince Andrew" style="filter: sepia(100%) hue-rotate(190deg);">
+                        <div class="overlay">ACCUSED</div>
+                    </div>
+                    <div class="card-header">PRINCE ANDREW</div>
+                    <div class="card-body">
+                        Accused by Virginia Giuffre of sexual abuse on three occasions (London, New York, US VI). He
+                        vehemently denies all allegations. Settled civil suit in 2022.
+                        <div class="hidden-details">
+                            <span class="detail-label">MENTIONS:</span> 70+ PAGES<br>
+                            <span class="detail-label">ALLEGATION:</span> SEXUAL ASSAULT
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-container">
+                        <img src="redacted_man.png" alt="Bill Clinton" style="filter: grayscale(100%);">
+                        <div class="overlay">WITNESS</div>
+                    </div>
+                    <div class="card-header">BILL CLINTON</div>
+                    <div class="card-body">
+                        Identified as "John Doe 36". Flight logs confirm travel with Epstein. Giuffre stated she met him
+                        on the island, but he is not accused of sexual misconduct in these files.
+                        <div class="hidden-details">
+                            <span class="detail-label">RELATION:</span> FORMER ASSOCIATE<br>
+                            <span class="detail-label">ALLEGATION:</span> NONE
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-container">
+                        <img src="redacted_man.png" alt="Donald Trump" style="filter: contrast(150%);">
+                        <div class="overlay">MENTIONED</div>
+                    </div>
+                    <div class="card-header">DONALD TRUMP</div>
+                    <div class="card-body">
+                        Mentioned in depositions. One witness recalled Epstein saying he would call Trump. Another
+                        stated she never saw him at Epstein's properties. No allegations of wrongdoing.
+                        <div class="hidden-details">
+                            <span class="detail-label">RELATION:</span> SOCIAL ACQUAINTANCE<br>
+                            <span class="detail-label">ALLEGATION:</span> NONE
+                        </div>
+                    </div>
+                </div>
+                <!-- Adding Stephen Hawking per request -->
+                <div class="card">
+                    <div class="card-img-container">
+                        <img src="redacted_man.png" alt="Stephen Hawking" style="filter: invert(100%);">
+                        <div class="overlay">MENTIONED</div>
+                    </div>
+                    <div class="card-header">STEPHEN HAWKING</div>
+                    <div class="card-body">
+                        Epstein sent an email to Maxwell offering a reward to anyone who could prove Hawking did not
+                        participate in an underage orgy, attempting to debunk rumors.
+                        <div class="hidden-details">
+                            <span class="detail-label">CONTEXT:</span> ALIBI ATTEMPT<br>
+                            <span class="detail-label">ALLEGATION:</span> NONE
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-container">
+                        <img src="redacted_man.png" alt="Alan Dershowitz">
+                        <div class="overlay">ACCUSED</div>
+                    </div>
+                    <div class="card-header">ALAN DERSHOWITZ</div>
+                    <div class="card-body">
+                        Former lawyer for Epstein. Accused by Giuffre of sexual abuse, which he denies. He countersued
+                        Giuffre. The files contain many legal arguments regarding his involvement.
+                        <div class="hidden-details">
+                            <span class="detail-label">ROLE:</span> ATTORNEY<br>
+                            <span class="detail-label">ALLEGATION:</span> SEXUAL ABUSE (DENIED)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="documents" class="content-section">
+            <h2>THE EVIDENCE</h2>
+            <div class="doc-gallery">
+                <!-- Visual representations of documents -->
+                <div class="doc-item">
+                    <img src="classified_folder.png" alt="Deposition">
+                    <div class="doc-content-overlay">
+                        <h3>DEPOSITION</h3>
+                        <p>JANE DOE #3</p>
+                    </div>
+                </div>
+                <div class="doc-item">
+                    <img src="palm_beach_mansion_sketch.png" alt="Mansion Sketch">
+                    <div class="doc-content-overlay">
+                        <h3>LOCATION</h3>
+                        <p>PALM BEACH</p>
+                    </div>
+                </div>
+                <div class="doc-item">
+                    <img src="classified_folder.png" alt="Email" style="filter: hue-rotate(45deg)">
+                    <div class="doc-content-overlay">
+                        <h3>EMAIL</h3>
+                        <p>MAXWELL TO EPSTEIN</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="impact" class="content-section">
+            <h2>THE AFTERMATH</h2>
+            <div class="impact-content">
+                <p>
+                    The files confirmed what many survivors had said for years. While the legal battles continue,
+                    the unsealing represents a rare moment of transparency in a case shrouded in secrecy.
+                </p>
+                <button class="cta-button">SEARCH DATABASE (MOCK)</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created for Educational Purposes. Information based on public court records (Giuffre v. Maxwell).</p>
+        <p>2026 - Independent Archive</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
